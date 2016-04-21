@@ -33,7 +33,15 @@ public class testmain {
             Sol.ajoute(I.lesObjets.get(i));
          }
       }
-     
+
+      /*//////////////////////////////////////////////
+                Programmation dynamique
+       *//////////////////////////////////////////////
+
+        SacADosDual sacADosDual = new SacADosDual(I);
+
+
+        //////////////////////////////////////////////////
       System.out.print("Sous ensemble solution \n" + Sol.toString());
       if (Sol.getUtilTotale()>I.utiliteMin) System.out.println("la solution est realisable");
 
